@@ -1,13 +1,8 @@
-//variaveis valores que podem mudar variações
-var nome = "Davi"
-var sobrenome = "Bernardo"
-var idade = 37
+//codicionais, o código será executado de acordo com um condição específica
+var hora = 13;
 
-document.write(nome + ' ' + sobrenome + ' tem ' + idade + ' anos')
-
-var x = 10
-var y = 15
-
-var total = x + y
-
-alert(total)
+if(hora < 12){
+    console.log("Bom dia")
+}else{
+    console.log("Não é de manhã")
+}
