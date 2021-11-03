@@ -1,13 +1,13 @@
-//4 formas principoais para mostrar dados pro usuário final
-//1ºformula id
-document.getElementById("titulo").innerHTML = "Opa, tudo bem?" //alterou o texto
+//variaveis valores que podem mudar variações
+var nome = "Davi"
+var sobrenome = "Bernardo"
+var idade = 37
 
-//2º formula write
-document.write("Algum texto")
+document.write(nome + ' ' + sobrenome + ' tem ' + idade + ' anos')
 
-//3º formula utilizando a janela do navegador window
-window.alert("Mansagem de exemplo")
-alert("Mansagem de exemplo")
+var x = 10
+var y = 15
 
-//4ª fórmula printando algo no console
-console.log("A mensagem que eu inserir aqui aparecerá no console")
+var total = x + y
+
+alert(total)
